@@ -190,6 +190,17 @@ input:focus {
     outline: none;
 }
 
+.inputError {
+    border: 1px solid red;
+}
+
+#matchError {
+    display: none;
+    margin-top: 4px;
+    font-size: 14px;
+    color: red;
+}
+
 .lowerArea {
     flex: 1;
     background-color: whitesmoke;

@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Roboto+Slab&display=swap" rel="stylesheet">
     <script src="script.js"></script>
     <title>Sign-up Form</title>
 </head>
@@ -18,8 +21,60 @@
             <div class="splashFooter">Footer Placeholder</div>
         </div>
         <div class="mainArea">
-            <div class="upperArea"></div>
-            <div class="formArea"></div>
+            <div class="upperArea">
+                <div class="textContainer">
+                    This is not a real online service! 
+                    You know you need something like this in your life to help you realize your deepest dreams. 
+                    <br> Sign up <i>now</i> to get started. <br> <br> You <i>know</i> you want to.
+                </div>
+            </div>
+            <div class="formArea">
+                <form>
+                    <h1>Let's do this!</h1>
+                    <div class="flexRow">
+                        <div class="flexColumn">
+                            <label for="firstName">
+                                <span>First Name</span>
+                            </label>
+                            <input type="text" id="firstName" name="firstName">
+                        </div>
+                        <div class="flexColumn">
+                            <label for="lastname">
+                                <span>Last Name</span>
+                            </label>
+                            <input type="text" id="lastName" name="lastName">
+                        </div>
+                    </div>
+                    <div class="flexRow">
+                        <div class="flexColumn">
+                            <label for="email">
+                                <span>Email</span>
+                            </label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div class="flexColumn">
+                            <label for="phone">
+                                <span>Phone Number</span>
+                            </label>
+                            <input type="text" id="phone" name="phoneNumber">
+                        </div>
+                    </div>
+                    <div class="flexRow">
+                        <div class="flexColumn">
+                            <label for="password">
+                                <span>Password</span>
+                            </label>
+                            <input type="password" id="password" name="password">
+                        </div>
+                        <div class="flexColumn">
+                            <label for="password2">
+                                <span>Confirm Password</span>
+                            </label>
+                            <input type="password" id="password2" name="password2">
+                        </div>
+                    </div>
+                </form>
+            </div>
             <div class="lowerArea"></div>
         </div>
     </div>

@@ -99,13 +99,17 @@ body {
 }
 
 .splashFooter {
+    margin-bottom: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, .4);
     color: white;
     height: 20px;
     margin-top: auto;
+}
+
+a {
+    color: inherit;
 }
 
 .mainArea {

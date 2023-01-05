@@ -207,7 +207,6 @@ input:focus {
 }
 
 button {
-    position: absolute;
     border: none;
     color: white;
     font-size: 18px;
@@ -227,7 +226,7 @@ button:hover {
 }
 
 .lowerArea .textContainer {
-    margin-top: 120px;
+    margin-top: 40px;
     font-size: 18px;
 }
 

@@ -34,20 +34,20 @@
                 </div>
             </div>
             <div class="formArea">
-                <form>
+                <form id="infoForm">
                     <h1>Let's do this!</h1>
                     <div class="flexRow">
                         <div class="flexColumn">
                             <label for="firstName">
                                 <span>First Name</span>
                             </label>
-                            <input type="text" id="firstName" name="firstName">
+                            <input type="text" id="firstName" name="firstName" required>
                         </div>
                         <div class="flexColumn">
                             <label for="lastname">
                                 <span>Last Name</span>
                             </label>
-                            <input type="text" id="lastName" name="lastName">
+                            <input type="text" id="lastName" name="lastName" required>
                         </div>
                     </div>
                     <div class="flexRow">
@@ -55,13 +55,13 @@
                             <label for="email">
                                 <span>Email</span>
                             </label>
-                            <input type="email" id="email" name="email">
+                            <input type="email" id="email" name="email" required>
                         </div>
                         <div class="flexColumn">
                             <label for="phone">
                                 <span>Phone Number</span>
                             </label>
-                            <input type="text" id="phone" name="phoneNumber">
+                            <input type="text" id="phone" name="phoneNumber" required>
                         </div>
                     </div>
                     <div class="flexRow">
@@ -69,19 +69,22 @@
                             <label for="password">
                                 <span>Password</span>
                             </label>
-                            <input type="password" id="password" name="password">
+                            <input type="password" id="password" name="password" required>
                             <span id="matchError">* Passwords do not match.</span>
                         </div>
                         <div class="flexColumn">
                             <label for="password2">
                                 <span>Confirm Password</span>
                             </label>
-                            <input type="password" id="password2" name="password2">
+                            <input type="password" id="password2" name="password2" required>
                         </div>
                     </div>
                 </form>
             </div>
-            <div class="lowerArea"></div>
+            <div class="lowerArea">
+                <button type="submit" form="infoForm">Create Account</button>
+                <div class="textContainer">Already have an account?&nbsp;<a href="http://" id="logIn">Log in</a></div>
+            </div>
         </div>
     </div>
 </body>

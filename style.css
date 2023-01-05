@@ -205,3 +205,32 @@ input:focus {
     flex: 1;
     background-color: whitesmoke;
 }
+
+button {
+    position: absolute;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(64, 100, 64);
+    margin-top: 30px;
+    margin-left: 40px;
+    border-radius: 8px;
+    padding: 15px 60px;
+}
+
+button:hover {
+    border: 1px solid rgb(64, 100, 64);
+    color: rgb(64, 100, 64);
+    background-color: white;
+    transition: .05s;
+}
+
+.lowerArea .textContainer {
+    margin-top: 120px;
+    font-size: 18px;
+}
+
+#logIn {
+    color: green;
+}
